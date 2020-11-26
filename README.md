@@ -1,7 +1,7 @@
 ### Hi there 👋
 My best works are<br>
 * <a href="https://github.com/joonb14/GAZEL.git"><b>GAZEL</b></a>
-* <a href="https://github.com/joonb14/GazeBird.git><b>GazeBird</b></a>
+* <a href="https://github.com/joonb14/GazeBird.git"><b>GazeBird</b></a>
 * <a href="https://github.com/joonb14/MLKitGazeDataCollectingButton.git"><b>MLKitGazeDataCollectingButton</b></a>
 
 ## GAZEL
