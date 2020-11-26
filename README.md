@@ -1,12 +1,13 @@
 ### Hi there 👋
 My best works are<br>
-* <a href="https://github.com/joonb14/MobiGaze.git"><b>MobiGaze</b></a>
+* <a href="https://github.com/joonb14/GAZEL.git"><b>GAZEL</b></a>
+* <a href="https://github.com/joonb14/GazeBird.git"><b>GazeBird</b></a>
 * <a href="https://github.com/joonb14/MLKitGazeDataCollectingButton.git"><b>MLKitGazeDataCollectingButton</b></a>
 
-## MobiGaze
+## GAZEL
 Is a <b>Personalized Realtime Mobile Gaze Tracker</b>.
 ## MLKitGazeDataCollectingButton
-Is data collecting app for making Gaze Estimation Model required for MobiGaze.
+Is data collecting app for making Gaze Estimation Model required for GAZEL.
 ## Other works
 ##### Works that provided steps to improve MLKitGazeDataCollectingButton
 * <a href="https://github.com/joonb14/GazeDataVideoCollectingLauncher">GazeDataVideoCollectingLauncher</a>
