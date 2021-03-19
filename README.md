@@ -1,8 +1,14 @@
 ### Hi there 👋
 I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition.
 
+## Face Recognition (Identification)
+
+* **[Android-FaceRecognition](https://github.com/joonb14/Android-FaceRecognition)**
+  * Is runtime face identification on Android device. I used [IJB-C](https://www.nist.gov/programs-projects/face-challenges) dataset for testing labels.
+
 ## Gaze Tracking (Eye Tracking)
 * <a href="https://github.com/joonb14/GAZEL.git"><b>GAZEL</b></a>
+	
 	* Is a <b>Personalized Realtime Mobile Gaze Tracker</b>.
 	* This work is official implementation of GAZEL framework which is published in [PerCom 2021(GAZEL: Runtime Gaze Tracking for Smartphones)](http://www.percom.org/) .
 * <a href="https://github.com/joonb14/GazeBird.git"><b>GazeBird</b></a>
