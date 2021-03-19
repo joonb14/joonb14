@@ -3,10 +3,30 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 
 ## Face Recognition (Identification)
 
+<p>
+	<code>#Face Recognition</code>
+	<code>#Android</code>
+	<code>#Firebase ML Kit</code>
+	<code>#TensorFlow Lite</code>
+	<code>#Java</code>
+	<code>#Python</code>
+</p>
+
 * **[Android-FaceRecognition](https://github.com/joonb14/Android-FaceRecognition)**
   * Is runtime face identification on Android device. I used [IJB-C](https://www.nist.gov/programs-projects/face-challenges) dataset for testing labels.
 
 ## Gaze Tracking (Eye Tracking)
+<p>
+	<code>#Gaze Tracking</code>
+	<code>#Android</code>
+	<code>#Firebase ML Kit</code>
+	<code>#TensorFlow Lite</code>
+	<code>#PerCom 2021</code>
+	<code>#GAZEL</code>
+	<code>#Java</code>
+	<code>#Python</code>
+</p>
+
 * <a href="https://github.com/joonb14/GAZEL.git"><b>GAZEL</b></a>
 	
 	* Is a <b>Personalized Realtime Mobile Gaze Tracker</b>.
@@ -25,6 +45,11 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
     </details>
 
 ## TensorFlow Lite Python
+<p>
+	<code>#TensorFlow Lite</code>
+	<code>#Python</code>
+	<code>#Interpreter</code>
+</p>
 * Works on TensorFlow Lite Python Interpreter. <br>
   Based on: https://www.tensorflow.org/lite/examples, converted Android Java(Kotlin) code to Python
   * <a href="https://github.com/joonb14/TFLitePoseEstimation.git">TFLitePoseEstimation</a>
@@ -33,6 +58,13 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
   * <a href="https://github.com/joonb14/TFLiteSegmentation.git">TFLiteSegmentation</a>
 
 ## Power Management
+<p>
+	<code>#Mobile</code>
+	<code>#PM</code>
+	<code>#flask</code>
+	<code>#svm</code>
+	<code>#dark mode</code>
+</p>
 
 <details>
 <summary>Works on optimizing Mobile device battery</summary>
@@ -49,6 +81,13 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 </details>
 
 ## Visualization on Web-browser
+<p>
+	<code>#HighCharts.js</code>
+	<code>#Go.js</code>
+	<code>#flask</code>
+	<code>#csv</code>
+	<code>#Web browser</code>
+</p>
 
 <details>
 <summary>Visualizing Charts</summary>
