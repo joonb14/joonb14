@@ -50,8 +50,9 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 	<code>#Python</code>
 	<code>#Interpreter</code>
 </p>
+
 * Works on TensorFlow Lite Python Interpreter. <br>
-  Based on: https://www.tensorflow.org/lite/examples, converted Android Java(Kotlin) code to Python
+  Based on: https://www.tensorflow.org/lite/examples, converted Android Java(Kotlin) code to Python<br>
   * <a href="https://github.com/joonb14/TFLitePoseEstimation.git">TFLitePoseEstimation</a>
   * <a href="https://github.com/joonb14/TFLiteDetection.git">TFLiteDetection</a>
   * <a href="https://github.com/joonb14/TFLiteClassification.git">TFLiteClassification</a>
