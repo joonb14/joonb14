@@ -29,7 +29,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 
 * <a href="https://github.com/joonb14/GAZEL.git"><b>GAZEL</b></a>
 	
-	* Is a <b>Personalized Realtime Mobile Gaze Tracker</b>.
+	* Is a <b>Personalized Runtime Mobile Gaze Tracker</b>.
 	* This work is official implementation of GAZEL framework which is published in [PerCom 2021(GAZEL: Runtime Gaze Tracking for Smartphones)](http://www.percom.org/) .
 * <a href="https://github.com/joonb14/GazeBird.git"><b>GazeBird</b></a>
 	
