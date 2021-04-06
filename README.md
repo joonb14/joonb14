@@ -11,12 +11,12 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 	<code>#TensorFlow Lite</code>
 	<code>#Java</code>
 	<code>#Python</code>
-</p>
+</p>  
 * **[JHFace](https://github.com/joonb14/JHFace)**
   * Face recognition training & testing framework implemented with TensorFlow 2, Keras
   * Supported backbones: **MobileNet, MobileNetV2, InceptionResNetV2, InceptionV3, ResNet50, ResNet50V2, ResNet101V2, MNasNetA1, MNasNetB1, MNaseNetSmall, NASNetLarge, NASNetMobile, Xception, MobileNetV3Large, MobileNetV3Small, EfficientNetLite0 ~ Lite6, EfficientNetB0 ~ B7**
   * Supported losses: **[ArcFace](https://openaccess.thecvf.com/content_CVPR_2019/html/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.html), [CosFace](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_CosFace_Large_Margin_CVPR_2018_paper.html)**
-  
+
 * **[Android-FaceRecognition](https://github.com/joonb14/Android-FaceRecognition)**
   * Is runtime face identification on Android device. I used [IJB-C](https://www.nist.gov/programs-projects/face-challenges) dataset for testing labels.
 
