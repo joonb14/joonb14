@@ -42,13 +42,6 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 	* Is game application which utilize GAZEL for controlling the bird.
 * <a href="https://github.com/joonb14/MLKitGazeDataCollectingButton.git"><b>MLKitGazeDataCollectingButton</b></a>
 	* Is gaze data collecting application for making gaze estimation model required for GAZEL.
-    <details>
-    <summary>Other Works that provided steps to improve MLKitGazeDataCollectingButton</summary>
-        <li> <a href="https://github.com/joonb14/GazeDataVideoCollectingLauncher">GazeDataVideoCollectingLauncher</a></li>
-        <li><a href="https://github.com/joonb14/GazeDelayCheckingButton.git">GazeDelayCheckingButton</a></li>
-        <li><a href="https://github.com/joonb14/GazeDataCollectingButton">GazeDataCollectingButton</a></li>
-        <li> <a href="https://github.com/joonb14/GazeDataCollectingLauncher">GazeDataCollectingLauncher</a></li>
-    </details>
 
 ## TensorFlow Lite Python
 <p>
