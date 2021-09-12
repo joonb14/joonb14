@@ -1,7 +1,7 @@
 ### Hi there 👋
 I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition.
 
-## Face Recognition
+## Face Detection & Recognition
 
 <p>
 	<code>#Face Recognition</code>
@@ -20,6 +20,9 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 
 * **[Android-FaceRecognition](https://github.com/joonb14/Android-FaceRecognition)**
   * Is runtime face identification on Android device. I used [IJB-C](https://www.nist.gov/programs-projects/face-challenges) dataset for testing labels.
+
+* **[FaceBird](https://github.com/joonb14/FaceBird)**
+  * Is game applicaiton which utilize ML Kit for controlling the bird with rotating Face
 
 ## Gaze Tracking (Eye Tracking)
 <p>
