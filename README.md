@@ -31,7 +31,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
 	<code>#Android</code>
 </p>  
 
-* **[LibuvGameServer](https://github.com/joonb14/BlazePoseWithUnity)**
+* **[BlazePoseWithUnity](https://github.com/joonb14/BlazePoseWithUnity)**
   * Only has Demo and brief description of project due to confidential rights
 
 ## Face Detection & Recognition
