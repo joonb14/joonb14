@@ -20,7 +20,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My res
   * Client is based on Unity
   * Demo avaiable [here](https://github.com/joonb14/LibuvGameServerClients) 
 
-## Utillizing Realtime Pose Estimation at Unity 3D Avatar
+## Realtime Pose Estimation with Unity 3D Avatar
 
 <p>
 	<code>#mediapipe</code>
