@@ -1,5 +1,38 @@
 ### Hi there 👋
-I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition.
+I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition. But now I'm really into server development.
+
+## Libuv Game Server
+
+<p>
+	<code>#linux</code>
+	<code>#libuv</code>
+	<code>#C++</code>
+	<code>#C#</code>
+	<code>#Unity</code>
+</p>  
+
+* **[LibuvGameServer](https://github.com/joonb14/LibuvGameServer)**
+  * On Ubuntu 18.04, using [libuv](https://github.com/libuv/libuv) for TCP connection.
+  * Based on libuv's event loop, Network IO is single threaded.
+  * **[Bug]** Segmentation Fault after continuous Disconnection and Connection.
+* **[LibuvGameServerClients](https://github.com/joonb14/LibuvGameServerClients)**
+  * Dummy Client is based on C# .NET framework
+  * Client is based on Unity
+  * Demo avaiable [here](https://github.com/joonb14/LibuvGameServerClients) 
+
+## Realtime Pose Estimation with Unity 3D Avatar
+
+<p>
+	<code>#mediapipe</code>
+	<code>#blazepose</code>
+	<code>#Unity</code>
+	<code>#3D</code>
+	<code>#C#</code>
+	<code>#Android</code>
+</p>  
+
+* **[BlazePoseWithUnity](https://github.com/joonb14/BlazePoseWithUnity)**
+  * Only has Demo and brief description of project due to confidential rights
 
 ## Face Detection & Recognition
 
