@@ -1,0 +1,173 @@
+# Joonbeom Park
+Seoul, Republic of Korea.\
+joonb14@gmail.com\
+jb.park@yonsei.ac.kr\
+github: https://github.com/joonb14 \
+gitpage: https://joonb14.github.io
+
+---
+## Education
+M.S in Computer Science, Yonsei University (February 2021)\
+B.S in Computer Science, Yonsei University (February 2019)
+
+---
+## Research Experience
+**Software Engineer**\
+Department of OS, Tmax Inc, Bundang, Korea\
+October 2022 ~ Present | Online Meeting Team
+- Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution based on Open WebRTC Toolkit(OWT) media server.
+- Ongoing) Constructing gstreamer pipeline for utilizing C++ libtorch denoiser on OWT media server.
+- Ongoing) Setting OWT analytics agent service on docker-compose environment
+
+June 2022 ~ September 2022 | Virtual Desktop Solution Team
+- Documentation of Tmax Virtual Desktop Solution(VDS)'s common library.
+- Developed RTP/SRTP packet sender for WebRTC testing.
+
+**Game Server Developer**\
+Department of Metaverse, Tmax Inc, Bundang, Korea\
+December 2021 ~ May 2022 | Metaverse Server Team
+- Developed game server using Libuv which is Node.js core c++ library.
+- Developed Unity client to test Libuv game server.
+
+**Machine Learning Researcher**\
+Department of AI, Tmax Inc, Bundang, Korea\
+September 2021 ~ November 2021 | Computer Vision Team
+- Developed realtime pose estimation with Unity 3D avatar on smartphones using BlazePose(Google Mediapipe).
+
+May 2021 ~ June 2021 | Computer Vision Team
+- NVIDIA Triton server inference system maintenance 
+
+February 2021 ~ August 2021 | Computer Vision Team
+- Developed a face recognition algorithm HyperFace which certified KISA(K-NBTC) BIO Authentication test(ISO/IEC JTC1 SC37 standard).
+- Developed realtime face recognition Android application using Google Android ML Kit.
+
+**Graduate Researcher**\
+Department of Computer Science, Yonsei University, Seoul, Korea\
+March 2019 ~ February 2021 | Mobile Embedded System Lab | Advisor: Professor Hojung Cha
+- Developed a gaze data collecting application for Android using Google Android ML Kit.
+- Developed a convolution neural network for realtime gaze estimation model on smartphones using Tensorflow Lite.
+- Developed an Android application for realtime gaze estimation with front facing camera on smartphones using Google Android ML Kit.
+
+**Undergraduate Researcher**\
+Department of Computer Science, Yonsei University, Seoul, Korea\
+December 2017 ~ February 2019 | Mobile Embedded System Lab | Advisor: Professor Hojung Cha
+- Developed a SVM model for estimating power consumption of smartphone(Pixel XL) display based on the RGB values of screen display.
+- Developed energy aware UI design tool utilizing the SVM model, and image clustering.
+- Developed iBeacon logger application for Android, and visualization tool on web browser using Highcharts and GoJS.
+
+---
+## Paper
+**GAZEL: Runtime Gaze Tracking for Smartphones**
+
+2021 IEEE International Conference on Pervasive Computing and Communications (PerCom)\
+[DOI: 10.1109/PERCOM50583.2021.9439113](https://ieeexplore.ieee.org/document/9439113)\
+J. Park, S. Park, H. Cha, "GAZEL: Runtime Gaze Tracking for Smartphones," *The 19th International Conference on Pervasive Computing and Communications (PerCom 2021), Virtual Conference*, Mar. 22-26, 2021.
+
+---
+## Projects
+**Porting python denoiser module to Tmax Online Meeting solution**, Tmax OS\
+October 2022 ~ Present
+- Converting PyTorch denoiser model to C++ torchscript model which is customized from [FaceBook denoiser project](https://github.com/facebookresearch/denoiser).
+- Converting python denoiser inference script to C++ libtorch code.
+- Applying the model to Node.js Tmax Online Meeting based on [Open WebRTC Toolkit Media Server](https://github.com/open-webrtc-toolkit/owt-server) (On progress).
+
+**Documentation and testing for Virtual Destktop Soultion (VDS)**, Tmax OS\
+June 2022 ~ September 2022
+- Writing guidelines for using VDS common library, especially for establishing TCP/WebSocket Channel connection, and Signaling interface in VDS.
+- For testing VDS server, developed RTP/SRTP media packet sender.
+
+**Game server development using Libuv**, Tmax Metaverse\
+December 2021 ~ May 2022
+- Developing C++ Metaverse Game Server with Libuv(Node.js core library) for C# Unity Client. [Demo](https://github.com/joonb14/LibuvGameServerClients).
+- **TCP** Server for realtime multiplayer games.
+- Designing packet protocol for Metaverse server and Unity cleint.
+- Handling 100+ players in a **stateful** Metaverse server.
+
+**Realtime 3D pose estimation on smartphones with Unity**, Tmax AI\
+September 2021 ~ November 2021
+- Developed realtime pose estimation with Unity 3D avatar on smartphones using BlazePose(Google Mediapipe) with Unity Barracuda.
+- Modified [BlazePoseBarracuda](https://github.com/creativeIKEP/BlazePoseBarracuda) & [ThreeDPoseUnityBarracuda](https://github.com/digital-standard/ThreeDPoseUnityBarracuda) for development.
+- Optimized application to meet 16 FPS on Galaxy S21.
+- [Demo](https://github.com/joonb14/BlazePoseWithUnity).
+
+
+**NVIDIA Triton Server Maintenance**, Tmax AI\
+May 2021 ~ June 2021
+- Deployed our team's deep learning models with NVIDIA Triton Server on Tmax HyperCloud(customised k8s)
+- (Deprecated) Used Flask gateway for pre & post processing
+- Modified input stream format. JSON to byte buffer
+- Changed pre & post processing to use Ensemble + Python BLS pipeline
+
+**Face recognition algorithm development**, Tmax AI\
+February 2021 ~ August 2021
+- Implemented face recognition algorithms on TensorFlow 2
+- Converted TensorFlow 2 model to TensorFlow Lite
+- Applied uint8 quantization on TensorFlow Lite model.
+- Developed realtime face recognition PC/Android application using OpenCV/Android ML Kit and IJB-C dataset. [Android Demo](https://github.com/joonb14/Android-FaceRecognition).
+- Further developed *HyperFace* face recognition algorithm to get KISA(K-NBTC) BIO Authentication test(ISO/IEC JTC1 SC37 standard) certified.
+- Developed *Face Bird* game application with *HyperFace*. [Demo](https://github.com/joonb14/FaceBird).
+
+**Realtime gaze estimation on smartphones**, Yonsei University\
+March 2019 ~ February 2021 | Advisor: Professor Hojung Cha
+- Developed realtime eye region Bitmap cropper, and landmark collector with Google Android ML Kit.
+- Developed button click based auto gaze data collecting application for Android using Google Android ML Kit.
+- Developed Android laucher application for gaze data collection.
+- Developed a light-weight convolution neural network for realtime gaze estimation model on smartphones using TensorFlow Lite.
+- Used tablet gaze data for training, applied linear regression to use this model on smartphones.
+- Utilized RenderScript for converting RGB image to 1 channel Black & White image.
+- Developed an Android application for realtime gaze estimation with front facing camera on smartphones using Google Android ML Kit.
+- *GAZEL: Runtime Gaze Tracking for Smartphones* paper publication.
+- Developed *Gaze Bird* game application with *GAZEL*. [Demo](https://www.youtube.com/watch?v=SzDCBVbjowA).
+
+**Power management on embedded systems**, Yonsei University\
+December 2017 ~ February 2019 | Advisor: Professor Hojung Cha
+- Developed a SVM model for estimating power consumption of smartphone(Pixel XL) display based on the RGB values of screen display using [Monsoon ADB](https://github.com/joonb14/Python3_Monsoon_ADB).
+- To decrease power consumption on smartphones, developed *Energy Aware UI Design Tool* which runs on Flask. [ver1](https://github.com/joonb14/Energy_Aware_UI_Design_Tool). [ver2](https://github.com/joonb14/Energy_Aware_UI_Design_Tool_ver2).
+- Developed iBeacon logger application for Android, and visualization tool on web browser using Highcharts and GoJS.
+
+---
+## Social
+**Teacher at Daesung high school**, Daesung high school Seoul, Korea.\
+September 2017 ~ December 2017, Teacher
+- Taught C++ programming for high school students on weekends.
+
+---
+## Selected Coursework
+**Yonsei University(Undergraduate)**
+- Freshman
+    - Computer Programming
+    - Object Oriented Programming
+- Sophomore
+    - Data Structure
+    - Internet Programming
+    - Computer System
+    - Logic Circuit Design
+    - Digital Logic Circuit Practice
+    - Programming Language Structure Theory
+- Junior
+    - Operating System
+    - Computer Architecture
+    - Computer Graphics
+    - A.I
+    - Computer Network
+    - Database
+    - System Programming
+    - Algorithm Analysis
+- Senior
+    - Compiler Design
+    - Human-computer Interface
+    - Information Protection
+    - Software Comprehensive Design (1)
+    - Software Comprehensive Design (2)
+
+**Yonsei University(Graduate)**
+- Database System
+- Multicore Programming Basics
+- Wireless Network Technology Special Lecture
+- Computer System Special Lecture
+- Dependable Computer System
+- Dependable Computing Special Lecture
+
+---
+## Skills
+**Dev. Languages:** C++, Java(Android Studio), Python, JavaScript
