@@ -2,7 +2,7 @@
 Seoul, Republic of Korea.\
 joonb14@gmail.com\
 jb.park@yonsei.ac.kr\
-github: https://github.com/joonb14\
+github: https://github.com/joonb14 \
 gitpage: https://joonb14.github.io
 
 ---
