@@ -1,5 +1,6 @@
 ### Hi there 👋
-I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition. But now I'm really into server development.
+I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition. But now I'm really into server development.\
+[CV](./CV.md)
 
 ## Libuv Game Server
 
