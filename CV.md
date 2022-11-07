@@ -19,7 +19,9 @@ June 2022 ~ September 2022 | Virtual Desktop Solution Team
 - Developed RTP/SRTP packet sender for WebRTC testing.
 
 October 2022 ~ Present | Online Meeting Team
-- Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution.
+- Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution based on Open WebRTC Toolkit(OWT) media server.
+- Ongoing) Constructing gstreamer pipeline for utilizing C++ libtorch denoiser on OWT media server.
+- Ongoing) Setting OWT analytics agent service on docker-compose environment
 
 **Game Server Developer**\
 Department of Metaverse, Tmax Inc, Bundang, Korea\
