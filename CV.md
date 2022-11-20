@@ -87,6 +87,14 @@ September 2021 ~ November 2021
 - Optimized application to meet 16 FPS on Galaxy S21.
 - [Demo](https://github.com/joonb14/BlazePoseWithUnity).
 
+
+**NVIDIA Triton Server Maintenance**, Tmax AI\
+May 2021 ~ July 2021
+- Deployed our team's deep learning models with NVIDIA Triton Server on Tmax HyperCloud(customised k8s)
+- (Deprecated) Used Flask gateway for pre & post processing
+- Modified input stream format. JSON to byte buffer
+- Learned about Ensemble + Python BLS pipeline
+
 **Face recognition algorithm development**, Tmax AI\
 February 2021 ~ August 2021
 - Implemented face recognition algorithms on TensorFlow 2
