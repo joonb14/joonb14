@@ -34,6 +34,9 @@ Department of AI, Tmax Inc, Bundang, Korea\
 September 2021 ~ November 2021 | Computer Vision Team
 - Developed realtime pose estimation with Unity 3D avatar on smartphones using BlazePose(Google Mediapipe).
 
+May 2021 ~ June 2021 | Computer Vision Team
+- NVIDIA Triton server inference system maintenance 
+
 February 2021 ~ August 2021 | Computer Vision Team
 - Developed a face recognition algorithm HyperFace which certified KISA(K-NBTC) BIO Authentication test(ISO/IEC JTC1 SC37 standard).
 - Developed realtime face recognition Android application using Google Android ML Kit.
@@ -89,11 +92,11 @@ September 2021 ~ November 2021
 
 
 **NVIDIA Triton Server Maintenance**, Tmax AI\
-May 2021 ~ July 2021
+May 2021 ~ June 2021
 - Deployed our team's deep learning models with NVIDIA Triton Server on Tmax HyperCloud(customised k8s)
 - (Deprecated) Used Flask gateway for pre & post processing
 - Modified input stream format. JSON to byte buffer
-- Learned about Ensemble + Python BLS pipeline
+- Changed pre & post processing to use Ensemble + Python BLS pipeline
 
 **Face recognition algorithm development**, Tmax AI\
 February 2021 ~ August 2021
