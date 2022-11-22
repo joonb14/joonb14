@@ -14,14 +14,14 @@ B.S in Computer Science, Yonsei University (February 2019)
 ## Research Experience
 **Software Engineer**\
 Department of OS, Tmax Inc, Bundang, Korea\
-June 2022 ~ September 2022 | Virtual Desktop Solution Team
-- Documentation of Tmax Virtual Desktop Solution(VDS)'s common library.
-- Developed RTP/SRTP packet sender for WebRTC testing.
-
 October 2022 ~ Present | Online Meeting Team
 - Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution based on Open WebRTC Toolkit(OWT) media server.
 - Ongoing) Constructing gstreamer pipeline for utilizing C++ libtorch denoiser on OWT media server.
 - Ongoing) Setting OWT analytics agent service on docker-compose environment
+
+June 2022 ~ September 2022 | Virtual Desktop Solution Team
+- Documentation of Tmax Virtual Desktop Solution(VDS)'s common library.
+- Developed RTP/SRTP packet sender for WebRTC testing.
 
 **Game Server Developer**\
 Department of Metaverse, Tmax Inc, Bundang, Korea\
@@ -31,12 +31,12 @@ December 2021 ~ May 2022 | Metaverse Server Team
 
 **Machine Learning Researcher**\
 Department of AI, Tmax Inc, Bundang, Korea\
+September 2021 ~ November 2021 | Computer Vision Team
+- Developed realtime pose estimation with Unity 3D avatar on smartphones using BlazePose(Google Mediapipe).
+
 February 2021 ~ August 2021 | Computer Vision Team
 - Developed a face recognition algorithm HyperFace which certified KISA(K-NBTC) BIO Authentication test(ISO/IEC JTC1 SC37 standard).
 - Developed realtime face recognition Android application using Google Android ML Kit.
-
-September 2021 ~ November 2021 | Computer Vision Team
-- Developed realtime pose estimation with Unity 3D avatar on smartphones using BlazePose(Google Mediapipe).
 
 **Graduate Researcher**\
 Department of Computer Science, Yonsei University, Seoul, Korea\
