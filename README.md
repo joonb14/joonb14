@@ -1,6 +1,45 @@
 ### Hi there 👋
-I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition. But now I'm really into server development.\
+I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Currently interested in designing MLOps architecture with IaC especially AWS CDK.\
 [**My CV**](https://github.com/joonb14/joonb14/blob/master/CV.md)
+
+## Aug : Location-based AR SNS
+
+<p>
+	<code>#AWS</code>
+	<code>#CDK</code>
+	<code>#Serverless</code>
+	<code>#Event-driven</code>
+	<code>#IOS</code>
+	<code>#AR</code>
+</p>  
+
+* **Aug: Your next reality**
+  * [App Store Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
+  * [Business logics with AWS serverless event-driven architecture](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png). 
+  * [Video streaming & image content distribution](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
+  * AWS CDK(IaC) for deploying AWS resources.
+
+## MLOps
+
+<p>
+	<code>#AWS</code>
+	<code>#CDK</code>
+	<code>#MLOps</code>
+	<code>#AI</code>
+	<code>#CCTV</code>
+</p>  
+
+* **MLOps for AI CCTV**
+  * [Architecture Diagram](https://github.com/joonb14/docs-joonb14/blob/main/SKT/cvops.png)
+  * Dataset management with AWS Fathom(co-developing service with SKT)
+  * Design & implement train, inference, conversion, deploy pipeline
+  * Video streaming & image content delievery
+  * Semantic image search
+  * AWS CDK(IaC) for deploying AWS resources.
+
+* **Radio tower anomaly detection with drone images**
+  * Design serverless architecture for batch inference pipeline.
+  * AWS CDK(IaC) for deploying AWS resources.
 
 ## Libuv Game Server
 

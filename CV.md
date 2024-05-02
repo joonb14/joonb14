@@ -2,8 +2,7 @@
 Seoul, Republic of Korea.\
 joonb14@gmail.com\
 jb.park@yonsei.ac.kr\
-github: https://github.com/joonb14 \
-gitpage: https://joonb14.github.io
+github: [https://github.com/joonb14](https://github.com/joonb14)
 
 ---
 ## Education
@@ -12,12 +11,28 @@ B.S in Computer Science, Yonsei University (February 2019)
 
 ---
 ## Research Experience
+**Infra & Backend Developer**\
+[Aug: Your next reality](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)\
+September 2023 ~ Present | Aug Team
+- Deployed AWS resources with AWS CDK(IaC).
+- Design and implement Serverless event-driven infrastructure.
+- Video streaming & image content delievery.
+- GeoLocation-based AR Social Networking Service. 
+
+**MLOps Engineer**\
+Global Solutions Technology, SK Telecom, Pangyo, Korea\
+February 2023 ~ Present | Security AI Development Team
+- Deployed AWS resources with AWS CDK(IaC).
+- Training dataset management.
+- Implemented image and data content delievery service.
+- Design and implement train, inference, conversion, deploy pipeline for AI CCTV cameras on AWS.
+- Implemented batch inference API server for radio tower anomaly detection with drone images.
+- Semantic image search.
+
 **Software Engineer**\
 Department of OS, Tmax Inc, Bundang, Korea\
-October 2022 ~ Present | Online Meeting Team
+October 2022 ~ January 2023 | Online Meeting Team
 - Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution based on Open WebRTC Toolkit(OWT) media server.
-- Ongoing) Constructing gstreamer pipeline for utilizing C++ libtorch denoiser on OWT media server.
-- Ongoing) Setting OWT analytics agent service on docker-compose environment
 
 June 2022 ~ September 2022 | Virtual Desktop Solution Team
 - Documentation of Tmax Virtual Desktop Solution(VDS)'s common library.
@@ -65,8 +80,43 @@ J. Park, S. Park, H. Cha, "GAZEL: Runtime Gaze Tracking for Smartphones," *The 1
 
 ---
 ## Projects
+**Aug: Location-based AR Social Network Service**, 
+with Gunhee Han, Harry Kim, Sangsun Kim\
+September 2023 ~ Present\
+[AppStore Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
+- Design and deploy the AWS resources with AWS CDK.
+- Firebase authentication with email & password, Google login, Apple login.
+- Mobile push notification with AWS SNS, Firebase Cloud Message(FCM).
+- Video streaming & image content distribution with AWS Route53, CloudFront, S3.
+- Automatic thumbnail creation with AWS S3, Lambda trigger.
+- Automatic HLS convertion for videos with AWS S3, Lambda trigger, MediaConvert.
+- Business logic with Event-driven architecture. Using only serverless resources, AWS REST API Gateway, EventBridge, Lambda, DynamoDB.
+- Geolocation-based content search API based on Mapbox quadkey.
+
+**MLOps pipeline for AI CCTV Cameras(CVOps)**, 
+SK Telecom\
+February 2023 ~ Present
+- Design and deploy the AWS resources with AWS CDK.
+- User Authentication with AWS Cognito.
+- Dataset management with AWS Fathom(co-developing service with SKT) SDK.
+- Image preview and data streaming middleware service with AWS CloudFront + ALB + Fargate + Fathom SDK
+- Training pipeline with Sagemaker TrainingJob. Progress update, logging implemented with AWS SQS, Lambda.
+- Inference pipeline with Sagemaker ProcessingJob. Progress update, logging implemented with AWS SQS, Lambda.
+- Implementing Conversion pipeline, Torch to ONNX to binary file conversion. Each feature uses SageMaker ProcessingJob for conversion. Orchestrating workflow with Step Function. 
+- Pipeline(Train, Inference, Conversion) implementation with AWS Step Function.
+- Model deployment API with AWS API Gateway, ALB, Fargate, FastAPI. AI CCTV update download logic integration with S3 presigned URL.
+- Semantic image search with AWS OpenSearch. Feature extraction with OpenCLIP on Fargate.
+
+**Anomaly detection(with drone images) service for pipeline for radio towers**, 
+SK Telecom\
+June 2023 ~ August 2023
+- Whole AWS infrastructure with AWS CDK(IaC).
+- VPC & NAT Gateway for security requirements.
+- Batch inference anomaly detection model with AWS Sagemaker ProcessingJob to only use instance on-demand(Serverless Service).
+- Handling non-code level errors such as AWS Sagemaker resource errors with AWS Step Functions. Triggering AWS Lambda if errors occur, then report it to the server.
+
 **Porting python denoiser module to Tmax Online Meeting solution**, Tmax OS\
-October 2022 ~ Present
+October 2022 ~ December 2022
 - Converting PyTorch denoiser model to C++ torchscript model which is customized from [FaceBook denoiser project](https://github.com/facebookresearch/denoiser).
 - Converting python denoiser inference script to C++ libtorch code.
 - Applying the model to Node.js Tmax Online Meeting based on [Open WebRTC Toolkit Media Server](https://github.com/open-webrtc-toolkit/owt-server) (On progress).
