@@ -12,12 +12,23 @@ B.S in Computer Science, Yonsei University (February 2019)
 
 ---
 ## Research Experience
+**Backend Developer**\
+[Aug: Your next reality](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)\
+September 2023 ~ Present | Aug Team
+- Serverless design backend infrastructure
+- AWS resources deployed with using AWS CDK(IaC).
+- Location-based AR Social Networking Service. 
+
+**MLOps Engineer**\
+Global Solutions Technology, SK Telecom, Pangyo, Korea\
+February 2023 ~ Present | Security AI Development Team
+- Developed train, inference, conversion, deploy pipeline for AI CCTV cameras on AWS.
+- Developed inference API server for radio tower anomaly detection with drone images.
+
 **Software Engineer**\
 Department of OS, Tmax Inc, Bundang, Korea\
-October 2022 ~ Present | Online Meeting Team
+October 2022 ~ December 2023 | Online Meeting Team
 - Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution based on Open WebRTC Toolkit(OWT) media server.
-- Ongoing) Constructing gstreamer pipeline for utilizing C++ libtorch denoiser on OWT media server.
-- Ongoing) Setting OWT analytics agent service on docker-compose environment
 
 June 2022 ~ September 2022 | Virtual Desktop Solution Team
 - Documentation of Tmax Virtual Desktop Solution(VDS)'s common library.
@@ -65,8 +76,43 @@ J. Park, S. Park, H. Cha, "GAZEL: Runtime Gaze Tracking for Smartphones," *The 1
 
 ---
 ## Projects
+**Aug: Location-based AR Social Network Service**, 
+with Gunhee Han, Harry Kim, Sangsun Kim\
+September 2023 ~ Present\
+[AppStore Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
+- Designing and deploying the AWS resources with AWS CDK.
+- Implementing Firebase authentication with email & password, Google login, Apple login.
+- Implementing mobile push notification with AWS SNS + Firebase Cloud Message(FCM).
+- Implementing video/image content distribution with Route53 + CloudFront + S3.
+- Developing automatic thumbnail creation with S3 + Lambda trigger.
+- Developing automatic HLS convertion for videos with S3 + Lambda trigger + AWS MediaConvert.
+- Developing business logics with Event-driven architecture. Using only serverless resources, AWS REST API Gateway + EventBridge + Lambda + DynamoDB.
+- Developing geo location based content search API based on Mapbox quadkey.
+
+
+**MLOps pipeline for AI CCTV Cameras(CVOps)**, 
+SK Telecom\
+February 2023 ~ Present
+- Designing and deploying the AWS resources with AWS CDK.
+- User Authentication with AWS Cognito.
+- Managing dataset with AWS Fathom(co-developing service with SKT) SDK.
+- Developing image/data preview streaming service with AWS CloudFront + ALB + AWS Fargate + Fathom SDK
+- Training pipeline with Sagemaker CreateTrainingJob. Progress update, logging with AWS SQS + AWS Lambda.
+- Inference pipeline with Sagemaker CreateProcessingJob. Progress update, logging with AWS SQS + AWS Lambda.
+- Implementing Torch to ONNX to binary file conversion. Conversion pipeline with Sagemkaer CreateProcessingJob. 
+- Pipeline(Train, Inference, Conversion) implementation with AWS Step Function.
+- Implementing the model deploying API with API Gateway + ALB + AWS Fargate + FastAPI. Integrating AI CCTV c logic with S3 presigned-url.
+
+**Anomaly detection(with drone images) API server for pipeline for radio towers**, 
+SK Telecom\
+June 2023 ~ August 2023
+- Deploying whole AWS infrastructure with AWS CDK(IaC).
+- Using VPC & NAT Gateway for security requirements.
+- Inferencing anomaly detection model with AWS Sagemaker. Using Sagemaker CreateProcessingJob to only use instance on-demand and keep it turned off(Serverless Service).
+- Using AWS Step Functions to handle non-code level errors such as AWS Sagemaker resource errors. Triggering AWS Lambda if errors occur, then report it to the server.
+
 **Porting python denoiser module to Tmax Online Meeting solution**, Tmax OS\
-October 2022 ~ Present
+October 2022 ~ December 2022
 - Converting PyTorch denoiser model to C++ torchscript model which is customized from [FaceBook denoiser project](https://github.com/facebookresearch/denoiser).
 - Converting python denoiser inference script to C++ libtorch code.
 - Applying the model to Node.js Tmax Online Meeting based on [Open WebRTC Toolkit Media Server](https://github.com/open-webrtc-toolkit/owt-server) (On progress).
