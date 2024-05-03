@@ -1,6 +1,61 @@
 ### Hi there 👋
-I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. My research interest include computer vision on mobile devices. Such as gaze tracking, and face recognition. But now I'm really into server development.\
+I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Currently interested in deploying backend architecture with IaC especially AWS CDK.\
 [**My CV**](https://github.com/joonb14/joonb14/blob/master/CV.md)
+
+## Aug : Location-based AR SNS
+
+<p>
+	<code>#AWS</code>
+	<code>#CDK</code>
+	<code>#Serverless</code>
+	<code>#Event-driven</code>
+	<code>#IOS</code>
+</p>  
+
+* **[Aug: Your next reality](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)**
+  * Business logics with AWS serverless event-driven architecture. 
+  	* API Gateway
+	* Event Bridge
+	* Lambda
+	* DynamoDB
+  * Video streaming & image content distribution.
+	* MediaConvert
+	* CloudFront
+	* S3
+	* Lambda
+  * AWS CDK(IaC) for deploying AWS resources.
+
+## MLOps
+
+<p>
+	<code>#AWS</code>
+	<code>#CDK</code>
+	<code>#MLOps</code>
+	<code>#SageMaker</code>
+	<code>#StepFunction</code>
+</p>  
+
+* **MLOps for AI CCTV**
+  * Dataset management with AWS Fathom(co-developing service with SKT)
+  * Design & implement train, inference, conversion, deploy pipeline
+    * StepFunction
+	* SageMaker
+	* Lambda
+	* SQS
+  * Video streaming & image content delievery
+	* CloudFront
+	* WAF
+	* Fargate
+	* S3
+  * AWS CDK(IaC) for deploying AWS resources.
+
+* **Radio tower anomaly detection with drone images**
+  * Design serverless architecture for inference
+	* StepFunction
+	* SageMaker ProcessingJob
+	* SQS
+	* Lambda
+  * AWS CDK(IaC) for deploying AWS resources.
 
 ## Libuv Game Server
 

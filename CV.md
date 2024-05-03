@@ -97,9 +97,9 @@ February 2023 ~ Present
 - User Authentication with AWS Cognito.
 - Managing dataset with AWS Fathom(co-developing service with SKT) SDK.
 - Developing image/data preview streaming service with AWS CloudFront + ALB + AWS Fargate + Fathom SDK
-- Training pipeline with Sagemaker CreateTrainingJob. Progress update, logging with AWS SQS + AWS Lambda.
-- Inference pipeline with Sagemaker CreateProcessingJob. Progress update, logging with AWS SQS + AWS Lambda.
-- Implementing Torch to ONNX to binary file conversion. Conversion pipeline with Sagemkaer CreateProcessingJob. 
+- Training pipeline with Sagemaker TrainingJob. Progress update, logging with AWS SQS + AWS Lambda.
+- Inference pipeline with Sagemaker ProcessingJob. Progress update, logging with AWS SQS + AWS Lambda.
+- Implementing Torch to ONNX to binary file conversion. Conversion pipeline with Sagemkaer ProcessingJob. 
 - Pipeline(Train, Inference, Conversion) implementation with AWS Step Function.
 - Implementing the model deploying API with API Gateway + ALB + AWS Fargate + FastAPI. Integrating AI CCTV c logic with S3 presigned-url.
 
@@ -108,7 +108,7 @@ SK Telecom\
 June 2023 ~ August 2023
 - Deploying whole AWS infrastructure with AWS CDK(IaC).
 - Using VPC & NAT Gateway for security requirements.
-- Inferencing anomaly detection model with AWS Sagemaker. Using Sagemaker CreateProcessingJob to only use instance on-demand and keep it turned off(Serverless Service).
+- Inferencing anomaly detection model with AWS Sagemaker. Using Sagemaker ProcessingJob to only use instance on-demand and keep it turned off(Serverless Service).
 - Using AWS Step Functions to handle non-code level errors such as AWS Sagemaker resource errors. Triggering AWS Lambda if errors occur, then report it to the server.
 
 **Porting python denoiser module to Tmax Online Meeting solution**, Tmax OS\
