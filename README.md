@@ -14,10 +14,14 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 
 * **[Aug: Your next reality](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)**
   * Business logics with AWS serverless event-driven architecture. 
-  	* API Gateway
+  	* REST API Gateway
 	* Event Bridge
 	* Lambda
 	* DynamoDB
+	* Firebase Authentication
+	* Firebase Cloud Messaging
+	* SNS
+	* WebSocket API Gateway
   * Video streaming & image content distribution.
 	* MediaConvert
 	* CloudFront
@@ -45,8 +49,11 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
   * Video streaming & image content delievery
 	* CloudFront
 	* WAF
+	* ALB
 	* Fargate
 	* S3
+  * Semantic image search
+	* OpenSearch
   * AWS CDK(IaC) for deploying AWS resources.
 
 * **Radio tower anomaly detection with drone images**

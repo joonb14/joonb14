@@ -87,8 +87,7 @@ September 2023 ~ Present\
 - Developing automatic thumbnail creation with S3 + Lambda trigger.
 - Developing automatic HLS convertion for videos with S3 + Lambda trigger + AWS MediaConvert.
 - Developing business logics with Event-driven architecture. Using only serverless resources, AWS REST API Gateway + EventBridge + Lambda + DynamoDB.
-- Developing geo location based content search API based on Mapbox quadkey.
-
+- Developing geolocation based content search API based on Mapbox quadkey.
 
 **MLOps pipeline for AI CCTV Cameras(CVOps)**, 
 SK Telecom\
@@ -102,6 +101,7 @@ February 2023 ~ Present
 - Implementing Torch to ONNX to binary file conversion. Conversion pipeline with Sagemkaer ProcessingJob. 
 - Pipeline(Train, Inference, Conversion) implementation with AWS Step Function.
 - Implementing the model deploying API with API Gateway + ALB + AWS Fargate + FastAPI. Integrating AI CCTV c logic with S3 presigned-url.
+- Implementing semantic image search with AWS OpenSearch
 
 **Anomaly detection(with drone images) API server for pipeline for radio towers**, 
 SK Telecom\
