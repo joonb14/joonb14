@@ -2,8 +2,7 @@
 Seoul, Republic of Korea.\
 joonb14@gmail.com\
 jb.park@yonsei.ac.kr\
-github: https://github.com/joonb14 \
-gitpage: https://joonb14.github.io
+github: https://github.com/joonb14
 
 ---
 ## Education
@@ -12,18 +11,23 @@ B.S in Computer Science, Yonsei University (February 2019)
 
 ---
 ## Research Experience
-**Backend Developer**\
+**Infra & Backend Developer**\
 [Aug: Your next reality](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)\
 September 2023 ~ Present | Aug Team
-- Serverless design backend infrastructure
-- AWS resources deployed with using AWS CDK(IaC).
-- Location-based AR Social Networking Service. 
+- Deployed AWS resources with AWS CDK(IaC).
+- Design and implement Serverless event-driven infrastructure.
+- Video streaming & image content delievery.
+- GeoLocation-based AR Social Networking Service. 
 
 **MLOps Engineer**\
 Global Solutions Technology, SK Telecom, Pangyo, Korea\
 February 2023 ~ Present | Security AI Development Team
-- Developed train, inference, conversion, deploy pipeline for AI CCTV cameras on AWS.
-- Developed inference API server for radio tower anomaly detection with drone images.
+- Deployed AWS resources with AWS CDK(IaC).
+- Training dataset management.
+- Implemented image and data content delievery service.
+- Design and implement train, inference, conversion, deploy pipeline for AI CCTV cameras on AWS.
+- Implemented batch inference API server for radio tower anomaly detection with drone images.
+- Semantic image search.
 
 **Software Engineer**\
 Department of OS, Tmax Inc, Bundang, Korea\
@@ -80,36 +84,36 @@ J. Park, S. Park, H. Cha, "GAZEL: Runtime Gaze Tracking for Smartphones," *The 1
 with Gunhee Han, Harry Kim, Sangsun Kim\
 September 2023 ~ Present\
 [AppStore Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
-- Designing and deploying the AWS resources with AWS CDK.
-- Implementing Firebase authentication with email & password, Google login, Apple login.
-- Implementing mobile push notification with AWS SNS + Firebase Cloud Message(FCM).
-- Implementing video/image content distribution with Route53 + CloudFront + S3.
-- Developing automatic thumbnail creation with S3 + Lambda trigger.
-- Developing automatic HLS convertion for videos with S3 + Lambda trigger + AWS MediaConvert.
-- Developing business logics with Event-driven architecture. Using only serverless resources, AWS REST API Gateway + EventBridge + Lambda + DynamoDB.
-- Developing geolocation based content search API based on Mapbox quadkey.
+- Design and deploy the AWS resources with AWS CDK.
+- Firebase authentication with email & password, Google login, Apple login.
+- Mobile push notification with AWS SNS, Firebase Cloud Message(FCM).
+- Video streaming & image content distribution with AWS Route53, CloudFront, S3.
+- Automatic thumbnail creation with AWS S3, Lambda trigger.
+- Automatic HLS convertion for videos with AWS S3, Lambda trigger, MediaConvert.
+- Business logic with Event-driven architecture. Using only serverless resources, AWS REST API Gateway, EventBridge, Lambda, DynamoDB.
+- Geolocation-based content search API based on Mapbox quadkey.
 
 **MLOps pipeline for AI CCTV Cameras(CVOps)**, 
 SK Telecom\
 February 2023 ~ Present
-- Designing and deploying the AWS resources with AWS CDK.
+- Design and deploy the AWS resources with AWS CDK.
 - User Authentication with AWS Cognito.
-- Managing dataset with AWS Fathom(co-developing service with SKT) SDK.
-- Developing image/data preview streaming service with AWS CloudFront + ALB + AWS Fargate + Fathom SDK
-- Training pipeline with Sagemaker TrainingJob. Progress update, logging with AWS SQS + AWS Lambda.
-- Inference pipeline with Sagemaker ProcessingJob. Progress update, logging with AWS SQS + AWS Lambda.
-- Implementing Torch to ONNX to binary file conversion. Conversion pipeline with Sagemkaer ProcessingJob. 
+- Dataset management with AWS Fathom(co-developing service with SKT) SDK.
+- Image preview and data streaming middleware service with AWS CloudFront + ALB + Fargate + Fathom SDK
+- Training pipeline with Sagemaker TrainingJob. Progress update, logging implemented with AWS SQS, Lambda.
+- Inference pipeline with Sagemaker ProcessingJob. Progress update, logging implemented with AWS SQS, Lambda.
+- Implementing Conversion pipeline, Torch to ONNX to binary file conversion. Each feature uses SageMaker ProcessingJob for conversion. Orchestrating workflow with Step Function. 
 - Pipeline(Train, Inference, Conversion) implementation with AWS Step Function.
-- Implementing the model deploying API with API Gateway + ALB + AWS Fargate + FastAPI. Integrating AI CCTV c logic with S3 presigned-url.
-- Implementing semantic image search with AWS OpenSearch
+- Model deployment API with AWS API Gateway, ALB, Fargate, FastAPI. AI CCTV update download logic integration with S3 presigned URL.
+- Semantic image search with AWS OpenSearch. Feature extraction with OpenCLIP on Fargate.
 
-**Anomaly detection(with drone images) API server for pipeline for radio towers**, 
+**Anomaly detection(with drone images) service for pipeline for radio towers**, 
 SK Telecom\
 June 2023 ~ August 2023
-- Deploying whole AWS infrastructure with AWS CDK(IaC).
-- Using VPC & NAT Gateway for security requirements.
-- Inferencing anomaly detection model with AWS Sagemaker. Using Sagemaker ProcessingJob to only use instance on-demand and keep it turned off(Serverless Service).
-- Using AWS Step Functions to handle non-code level errors such as AWS Sagemaker resource errors. Triggering AWS Lambda if errors occur, then report it to the server.
+- Whole AWS infrastructure with AWS CDK(IaC).
+- VPC & NAT Gateway for security requirements.
+- Batch inference anomaly detection model with AWS Sagemaker ProcessingJob to only use instance on-demand(Serverless Service).
+- Handling non-code level errors such as AWS Sagemaker resource errors with AWS Step Functions. Triggering AWS Lambda if errors occur, then report it to the server.
 
 **Porting python denoiser module to Tmax Online Meeting solution**, Tmax OS\
 October 2022 ~ December 2022
