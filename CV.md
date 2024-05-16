@@ -2,7 +2,7 @@
 Seoul, Republic of Korea.\
 joonb14@gmail.com\
 jb.park@yonsei.ac.kr\
-github: https://github.com/joonb14
+github: [https://github.com/joonb14](https://github.com/joonb14)
 
 ---
 ## Education
@@ -31,7 +31,7 @@ February 2023 ~ Present | Security AI Development Team
 
 **Software Engineer**\
 Department of OS, Tmax Inc, Bundang, Korea\
-October 2022 ~ December 2023 | Online Meeting Team
+October 2022 ~ January 2023 | Online Meeting Team
 - Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution based on Open WebRTC Toolkit(OWT) media server.
 
 June 2022 ~ September 2022 | Virtual Desktop Solution Team
