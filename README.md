@@ -13,7 +13,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 	<code>#AR</code>
 </p>  
 
-* **Aug: Your next reality**
+* **aug: spacial social**
   * [App Store Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
   * [Business logics with AWS serverless event-driven architecture](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png). 
   * [Video streaming & image content distribution](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
@@ -29,9 +29,9 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 	<code>#CCTV</code>
 </p>  
 
-* **MLOps for AI CCTV**
+* **MLOps for AI Surveillance Camera**
   * [Architecture Diagram](https://github.com/joonb14/docs-joonb14/blob/main/SKT/cvops.png)
-  * Dataset management with AWS Fathom(co-developing service with SKT)
+  * [Dataset pipeline](https://github.com/joonb14/docs-joonb14/blob/main/SKT/sample-mgmt.jpg) using AWS Fathom(co-developing service with SKT)
   * Design & implement train, inference, conversion, deploy pipeline
   * Video streaming & image content delievery
   * Semantic image search

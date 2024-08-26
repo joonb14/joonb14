@@ -1,33 +1,31 @@
 # Joonbeom Park
 Seoul, Republic of Korea.\
+joonb14@sktelecom.com\
 joonb14@gmail.com\
 jb.park@yonsei.ac.kr\
 github: [https://github.com/joonb14](https://github.com/joonb14)
 
 ---
-## Education
-M.S in Computer Science, Yonsei University (February 2021)\
-B.S in Computer Science, Yonsei University (February 2019)
-
----
-## Research Experience
+## Experience
 **Infra & Backend Developer**\
-[Aug: Your next reality](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)\
+[aug: spacial social](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)\
 September 2023 ~ Present | Aug Team
-- Deployed AWS resources with AWS CDK(IaC).
-- Design and implement Serverless event-driven infrastructure.
-- Video streaming & image content delievery.
+- [Designed Serverless event-driven infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png) & implementation.
+- [Video streaming & image content delievery](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
 - GeoLocation-based AR Social Networking Service. 
+- Deployed most of the AWS resources with AWS CDK(IaC).
 
 **MLOps Engineer**\
 Global Solutions Technology, SK Telecom, Pangyo, Korea\
 February 2023 ~ Present | Security AI Development Team
-- Deployed AWS resources with AWS CDK(IaC).
-- Training dataset management.
+- [Designed CVOps architecture(MLOps for AI surveillance cameras)](https://github.com/joonb14/docs-joonb14/blob/main/SKT/cvops.png) & Implementation.
+- [Designed CVOps data pipeline](https://github.com/joonb14/docs-joonb14/blob/main/SKT/sample-mgmt.jpg) & Implementation.
 - Implemented image and data content delievery service.
-- Design and implement train, inference, conversion, deploy pipeline for AI CCTV cameras on AWS.
+- implemented model train, inference, conversion, deploy pipeline for surveillance cameras.
+- Developed semantic image search.
+- Co-Dev with AWS Engineers(AWS Fathom)
 - Implemented batch inference API server for radio tower anomaly detection with drone images.
-- Semantic image search.
+- Deployed most of the AWS resources with AWS CDK(IaC).
 
 **Software Engineer**\
 Department of OS, Tmax Inc, Bundang, Korea\
@@ -41,10 +39,10 @@ June 2022 ~ September 2022 | Virtual Desktop Solution Team
 **Game Server Developer**\
 Department of Metaverse, Tmax Inc, Bundang, Korea\
 December 2021 ~ May 2022 | Metaverse Server Team
-- Developed game server using Libuv which is Node.js core c++ library.
+- Developed game server using Libuv(Node.js core c++ library).
 - Developed Unity client to test Libuv game server.
 
-**Machine Learning Researcher**\
+**Machine Learning Engineer**\
 Department of AI, Tmax Inc, Bundang, Korea\
 September 2021 ~ November 2021 | Computer Vision Team
 - Developed realtime pose estimation with Unity 3D avatar on smartphones using BlazePose(Google Mediapipe).
@@ -53,7 +51,7 @@ May 2021 ~ June 2021 | Computer Vision Team
 - NVIDIA Triton server inference system maintenance 
 
 February 2021 ~ August 2021 | Computer Vision Team
-- Developed a face recognition algorithm HyperFace which certified KISA(K-NBTC) BIO Authentication test(ISO/IEC JTC1 SC37 standard).
+- Granted KISA(K-NBTC) BIO Authentication test(ISO/IEC JTC1 SC37 standard) certification with face recognition algorithm HyperFace.
 - Developed realtime face recognition Android application using Google Android ML Kit.
 
 **Graduate Researcher**\
@@ -93,7 +91,7 @@ September 2023 ~ Present\
 - Business logic with Event-driven architecture. Using only serverless resources, AWS REST API Gateway, EventBridge, Lambda, DynamoDB.
 - Geolocation-based content search API based on Mapbox quadkey.
 
-**MLOps pipeline for AI CCTV Cameras(CVOps)**, 
+**MLOps pipeline for AI Surveillance Cameras(CVOps)**, 
 SK Telecom\
 February 2023 ~ Present
 - Design and deploy the AWS resources with AWS CDK.
@@ -104,7 +102,7 @@ February 2023 ~ Present
 - Inference pipeline with Sagemaker ProcessingJob. Progress update, logging implemented with AWS SQS, Lambda.
 - Implementing Conversion pipeline, Torch to ONNX to binary file conversion. Each feature uses SageMaker ProcessingJob for conversion. Orchestrating workflow with Step Function. 
 - Pipeline(Train, Inference, Conversion) implementation with AWS Step Function.
-- Model deployment API with AWS API Gateway, ALB, Fargate, FastAPI. AI CCTV update download logic integration with S3 presigned URL.
+- Model deployment API with AWS API Gateway, ALB, Fargate, FastAPI. Updated AI model download logic integration with S3 presigned URL.
 - Semantic image search with AWS OpenSearch. Feature extraction with OpenCLIP on Fargate.
 
 **Anomaly detection(with drone images) service for pipeline for radio towers**, 
@@ -182,42 +180,10 @@ September 2017 ~ December 2017, Teacher
 - Taught C++ programming for high school students on weekends.
 
 ---
-## Selected Coursework
-**Yonsei University(Undergraduate)**
-- Freshman
-    - Computer Programming
-    - Object Oriented Programming
-- Sophomore
-    - Data Structure
-    - Internet Programming
-    - Computer System
-    - Logic Circuit Design
-    - Digital Logic Circuit Practice
-    - Programming Language Structure Theory
-- Junior
-    - Operating System
-    - Computer Architecture
-    - Computer Graphics
-    - A.I
-    - Computer Network
-    - Database
-    - System Programming
-    - Algorithm Analysis
-- Senior
-    - Compiler Design
-    - Human-computer Interface
-    - Information Protection
-    - Software Comprehensive Design (1)
-    - Software Comprehensive Design (2)
-
-**Yonsei University(Graduate)**
-- Database System
-- Multicore Programming Basics
-- Wireless Network Technology Special Lecture
-- Computer System Special Lecture
-- Dependable Computer System
-- Dependable Computing Special Lecture
+## Education
+M.S in Computer Science, Yonsei University (February 2021)\
+B.S in Computer Science, Yonsei University (February 2019)
 
 ---
 ## Skills
-**Dev. Languages:** C++, Java(Android Studio), Python, JavaScript
+**Dev. Languages:** AWS, CDK, Python, TypeScript, C++, Java(Android Studio)
