@@ -14,7 +14,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 </p>  
 
 * **aug: spacial social**
-  * [App Store Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
+  * [App Store Link](https://apps.apple.com/app/aug-spatial-social/id6464393167)
   * [Business logics with AWS serverless event-driven architecture](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png). 
   * [Video streaming & image content distribution](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
   * AWS CDK(IaC) for deploying AWS resources.

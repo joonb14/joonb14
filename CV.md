@@ -8,7 +8,7 @@ github: [https://github.com/joonb14](https://github.com/joonb14)
 ---
 ## Experience
 **Infra & Backend Developer**\
-[aug: spacial social](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)\
+[aug: spacial social](https://apps.apple.com/app/aug-spatial-social/id6464393167)\
 September 2023 ~ Present | Aug Team
 - [Designed Serverless event-driven infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png) & implementation.
 - [Video streaming & image content delievery](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
