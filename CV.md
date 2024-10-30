@@ -105,7 +105,7 @@ February 2023 ~ Present
 - Model deployment API with AWS API Gateway, ALB, Fargate, FastAPI. Updated AI model download logic integration with S3 presigned URL.
 - Semantic image search with AWS OpenSearch. Feature extraction with OpenCLIP on Fargate.
 
-**Anomaly detection(with drone images) service for pipeline for radio towers**, 
+**Anomaly detection(with drone images) service for radio towers**, 
 SK Telecom\
 June 2023 ~ August 2023
 - Whole AWS infrastructure with AWS CDK(IaC).
