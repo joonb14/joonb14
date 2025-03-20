@@ -7,15 +7,21 @@ github: [https://github.com/joonb14](https://github.com/joonb14)
 
 ---
 ## Experience
-**Infra & Backend Developer**\
-[aug: spacial social](https://apps.apple.com/app/aug-spatial-social/id6464393167)\
+### Infra & Backend & MLOps
+[shot up](https://www.shotup.ai/)\
+January 2025 ~ Present | Aug Team
+- [Designed Serverless infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/shotup.png) & implementation.
+- [Screenshot analyzing with AI Agent(LLM + VectorDB for RAG)](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/analyze_screenshot.png)
+- [Semantic search for saved screenshots](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/search.png).
+- Deployed most of the AWS resources with AWS CDK(IaC).
+
+[aug: spacial social](https://www.augaugaug.com/)\
 September 2023 ~ Present | Aug Team
 - [Designed Serverless event-driven infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png) & implementation.
 - [Video streaming & image content delievery](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
 - GeoLocation-based AR Social Networking Service. 
 - Deployed most of the AWS resources with AWS CDK(IaC).
 
-**MLOps Engineer**\
 Global Solutions Technology, SK Telecom, Pangyo, Korea\
 February 2023 ~ Present | Security AI Development Team
 - [Designed CVOps architecture(MLOps for AI surveillance cameras)](https://github.com/joonb14/docs-joonb14/blob/main/SKT/cvops.png) & Implementation.
@@ -27,7 +33,7 @@ February 2023 ~ Present | Security AI Development Team
 - Implemented batch inference API server for radio tower anomaly detection with drone images.
 - Deployed most of the AWS resources with AWS CDK(IaC).
 
-**Software Engineer**\
+### Software Engineer
 Department of OS, Tmax Inc, Bundang, Korea\
 October 2022 ~ January 2023 | Online Meeting Team
 - Implemented C++ libtorch denoiser based on python PyTorch denoiser for Online Meeting solution based on Open WebRTC Toolkit(OWT) media server.
@@ -36,13 +42,13 @@ June 2022 ~ September 2022 | Virtual Desktop Solution Team
 - Documentation of Tmax Virtual Desktop Solution(VDS)'s common library.
 - Developed RTP/SRTP packet sender for WebRTC testing.
 
-**Game Server Developer**\
+### Game Server Developer
 Department of Metaverse, Tmax Inc, Bundang, Korea\
 December 2021 ~ May 2022 | Metaverse Server Team
 - Developed game server using Libuv(Node.js core c++ library).
 - Developed Unity client to test Libuv game server.
 
-**Machine Learning Engineer**\
+### Machine Learning Engineer
 Department of AI, Tmax Inc, Bundang, Korea\
 September 2021 ~ November 2021 | Computer Vision Team
 - Developed realtime pose estimation with Unity 3D avatar on smartphones using BlazePose(Google Mediapipe).
@@ -54,14 +60,14 @@ February 2021 ~ August 2021 | Computer Vision Team
 - Granted KISA(K-NBTC) BIO Authentication test(ISO/IEC JTC1 SC37 standard) certification with face recognition algorithm HyperFace.
 - Developed realtime face recognition Android application using Google Android ML Kit.
 
-**Graduate Researcher**\
+### Graduate Researcher
 Department of Computer Science, Yonsei University, Seoul, Korea\
 March 2019 ~ February 2021 | Mobile Embedded System Lab | Advisor: Professor Hojung Cha
 - Developed a gaze data collecting application for Android using Google Android ML Kit.
 - Developed a convolution neural network for realtime gaze estimation model on smartphones using Tensorflow Lite.
 - Developed an Android application for realtime gaze estimation with front facing camera on smartphones using Google Android ML Kit.
 
-**Undergraduate Researcher**\
+### Undergraduate Researcher
 Department of Computer Science, Yonsei University, Seoul, Korea\
 December 2017 ~ February 2019 | Mobile Embedded System Lab | Advisor: Professor Hojung Cha
 - Developed a SVM model for estimating power consumption of smartphone(Pixel XL) display based on the RGB values of screen display.
@@ -78,8 +84,19 @@ J. Park, S. Park, H. Cha, "GAZEL: Runtime Gaze Tracking for Smartphones," *The 1
 
 ---
 ## Projects
+**Shot Up: AI Assistant for Screenshots**, 
+with Gunhee Han, Harry Kim, Hojin Joo\
+January 2025 ~ Present\
+[AppStore Link](https://apps.apple.com/us/app/shotup-ai/id6738339711)
+- Design and deploy the AWS resources with AWS CDK.
+- Firebase authentication with Google & Apple login.
+- Mobile push notification with AWS SNS, Firebase Cloud Message(FCM).
+- Business logic with Lambda Function URL(to support streaming responses) + CloudFront distribution
+- Lambda@Edge authentication for CloudFront origins
+- OpenSearch Serverless vector collection and AWS Bedrock & ChatGPT for semantic search
+
 **Aug: Location-based AR Social Network Service**, 
-with Gunhee Han, Harry Kim, Sangsun Kim\
+with Gunhee Han, Harry Kim, Hojin Joo\
 September 2023 ~ Present\
 [AppStore Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
 - Design and deploy the AWS resources with AWS CDK.

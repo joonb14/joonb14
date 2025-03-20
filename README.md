@@ -2,6 +2,24 @@
 I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Currently interested in designing MLOps architecture with IaC especially AWS CDK.\
 [**My CV**](https://github.com/joonb14/joonb14/blob/master/CV.md)
 
+## Shot Up : Personalized AI Agent
+
+<p>
+	<code>#AWS</code>
+	<code>#CDK</code>
+	<code>#Serverless</code>
+	<code>#IOS</code>
+	<code>#AI</code>
+	<code>#Agent</code>
+</p>  
+
+* **shot up: AI assistant for screenshots**
+  * [App Store Link](https://apps.apple.com/us/app/shotup-ai/id6738339711)
+  * [AWS architecture](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/shotup.png). 
+  * [Analyzing with AI Agent](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/analyze_screenshot.png)
+  * [Semantic search](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/search.png).
+  * AWS CDK(IaC) for deploying AWS resources.
+
 ## Aug : Location-based AR SNS
 
 <p>
@@ -15,7 +33,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 
 * **aug: spacial social**
   * [App Store Link](https://apps.apple.com/app/aug-spatial-social/id6464393167)
-  * [Business logics with AWS serverless event-driven architecture](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png). 
+  * [AWS serverless event-driven architecture](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png). 
   * [Video streaming & image content distribution](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
   * AWS CDK(IaC) for deploying AWS resources.
 
