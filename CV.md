@@ -16,14 +16,14 @@ January 2025 ~ Present | Aug Team
 - Deployed most of the AWS resources with AWS CDK(IaC).
 
 [aug: spacial social](https://www.augaugaug.com/)\
-September 2023 ~ Present | Aug Team
+September 2023 ~ December 2024 | Aug Team
 - [Designed Serverless event-driven infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png) & implementation.
 - [Video streaming & image content delievery](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
 - GeoLocation-based AR Social Networking Service. 
 - Deployed most of the AWS resources with AWS CDK(IaC).
 
 Global Solutions Technology, SK Telecom, Pangyo, Korea\
-February 2023 ~ Present | Security AI Development Team
+February 2023 ~ December 2024 | Security AI Development Team
 - [Designed CVOps architecture(MLOps for AI surveillance cameras)](https://github.com/joonb14/docs-joonb14/blob/main/SKT/cvops.png) & Implementation.
 - [Designed CVOps data pipeline](https://github.com/joonb14/docs-joonb14/blob/main/SKT/sample-mgmt.jpg) & Implementation.
 - Implemented image and data content delievery service.
