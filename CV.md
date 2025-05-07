@@ -97,7 +97,7 @@ January 2025 ~ Present\
 
 **Aug: Location-based AR Social Network Service**, 
 with Gunhee Han, Harry Kim, Hojin Joo\
-September 2023 ~ Present\
+September 2023 ~ December 2024\
 [AppStore Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
 - Design and deploy the AWS resources with AWS CDK.
 - Firebase authentication with email & password, Google login, Apple login.
@@ -110,7 +110,7 @@ September 2023 ~ Present\
 
 **MLOps pipeline for AI Surveillance Cameras(CVOps)**, 
 SK Telecom\
-February 2023 ~ Present
+February 2023 ~ September 2024\
 - Design and deploy the AWS resources with AWS CDK.
 - User Authentication with AWS Cognito.
 - Dataset management with AWS Fathom(co-developing service with SKT) SDK.
