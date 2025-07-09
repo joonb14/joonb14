@@ -15,7 +15,7 @@ May 2025 ~ Present | Security AI Development Team
 - Data pre/post processing & prompting for the models with Airflow + FastAPI
 
 [shot up](https://www.shotup.ai/)\
-January 2025 ~ April | Aug Team
+January 2025 ~ April 2025 | Aug Team
 - [Designed Serverless infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/shotup.png) & implementation.
 - [Screenshot analyzing with AI Agent(LLM + VectorDB for RAG)](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/analyze_screenshot.png)
 - [Semantic search for saved screenshots](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/search.png).
