@@ -8,8 +8,14 @@ github: [https://github.com/joonb14](https://github.com/joonb14)
 ---
 ## Experience
 ### Infra & Backend & MLOps
+
+Global Solutions Technology, SK Telecom, Pangyo, Korea\
+May 2025 ~ Present | Security AI Development Team
+- Small Language Model(SLM) & Vision Language Model(VLM) serving with Triton | vLLM | Ray serve
+- Data pre/post processing & prompting for the models with Airflow + FastAPI
+
 [shot up](https://www.shotup.ai/)\
-January 2025 ~ Present | Aug Team
+January 2025 ~ April | Aug Team
 - [Designed Serverless infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/shotup.png) & implementation.
 - [Screenshot analyzing with AI Agent(LLM + VectorDB for RAG)](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/analyze_screenshot.png)
 - [Semantic search for saved screenshots](https://github.com/joonb14/docs-joonb14/blob/main/ShotUp/search.png).
@@ -84,9 +90,17 @@ J. Park, S. Park, H. Cha, "GAZEL: Runtime Gaze Tracking for Smartphones," *The 1
 
 ---
 ## Projects
+
+**Synapsego: Automated Visual Synopsis Creation**,
+SK Telecom\
+May 2025 ~ Present
+- Audio transcription model serving with Ray Serve
+- VLM multimodal inference serving and SLM serving with vllm + FastAPI
+- Pipelining with Airflow DAGs
+
 **Shot Up: AI Assistant for Screenshots**, 
 with Gunhee Han, Harry Kim, Hojin Joo\
-January 2025 ~ Present\
+January 2025 ~ April 2025\
 [AppStore Link](https://apps.apple.com/us/app/shotup-ai/id6738339711)
 - Design and deploy the AWS resources with AWS CDK.
 - Firebase authentication with Google & Apple login.
@@ -110,7 +124,7 @@ September 2023 ~ December 2024\
 
 **MLOps pipeline for AI Surveillance Cameras(CVOps)**, 
 SK Telecom\
-February 2023 ~ September 2024\
+February 2023 ~ September 2024
 - Design and deploy the AWS resources with AWS CDK.
 - User Authentication with AWS Cognito.
 - Dataset management with AWS Fathom(co-developing service with SKT) SDK.
