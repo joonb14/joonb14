@@ -6,6 +6,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 
 <p>
 	<code>#Airflow</code>
+	<code>#Triton</code>
 	<code>#FastAPI</code>
 	<code>#vLLM</code>
 	<code>#MLOps</code>
@@ -17,6 +18,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 * **Synapsego: Automated Visual Synopsis Creation**
 	* Audio transcription model serving with Ray Serve
 	* VLM multimodal inference serving and SLM serving with vllm + FastAPI
+	* Vision models serving with Triton BLS
 	* Pipelining with Airflow DAGs
 
 ## Shot Up : Personalized AI Agent

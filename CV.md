@@ -11,7 +11,8 @@ github: [https://github.com/joonb14](https://github.com/joonb14)
 
 Global Solutions Technology, SK Telecom, Pangyo, Korea\
 May 2025 ~ Present | Security AI Development Team
-- Small Language Model(SLM) & Vision Language Model(VLM) serving with Triton | vLLM | Ray serve
+- Small Language Model(SLM) & Vision Language Model(VLM) serving with vLLM | Ray serve
+- Object Detection & License Plate Detection & Face Recognition Pipeline serving with Triton Server
 - Data pre/post processing & prompting for the models with Airflow + FastAPI
 
 [shot up](https://www.shotup.ai/)\
@@ -96,6 +97,7 @@ SK Telecom\
 May 2025 ~ Present
 - Audio transcription model serving with Ray Serve
 - VLM multimodal inference serving and SLM serving with vllm + FastAPI
+- Vison models serving with Business Logic Scripting with Triton Server
 - Pipelining with Airflow DAGs
 
 **Shot Up: AI Assistant for Screenshots**, 
