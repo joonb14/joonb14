@@ -2,7 +2,7 @@
 I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Currently interested in designing MLOps architecture with IaC especially AWS CDK.\
 [**My CV**](https://github.com/joonb14/joonb14/blob/master/CV.md)
 
-## Synapsego: VLM, SLM serving
+## Synapsego: VLM, LLM/SLM serving
 
 <p>
 	<code>#Airflow</code>
@@ -17,7 +17,7 @@ I received the M.Sc. degree in 2021 from Yonsei University, Seoul, Korea. Curren
 
 * **Synapsego: Automated Visual Synopsis Creation**
 	* Audio transcription model serving with Ray Serve
-	* VLM multimodal inference serving and SLM serving with vllm + FastAPI
+	* VLM multimodal inference serving and LLM/SLM serving with vllm + FastAPI
 	* Vision models serving with Triton BLS
 	* Pipelining with Airflow DAGs
 

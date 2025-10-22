@@ -6,12 +6,12 @@ jb.park@yonsei.ac.kr\
 github: [https://github.com/joonb14](https://github.com/joonb14)
 
 ---
-## Experience
+## Experience Summary
 ### Infra & Backend & MLOps
 
 Global Solutions Technology, SK Telecom, Pangyo, Korea\
-May 2025 ~ Present | Security AI Development Team
-- Small Language Model(SLM) & Vision Language Model(VLM) serving with vLLM | Ray serve
+May 2025 ~ October 2025 | Security AI Development Team
+- Large/Small Language Model(LLM/SLM) & Vision Language Model(VLM) serving with vLLM | Ray serve
 - Object Detection & License Plate Detection & Face Recognition Pipeline serving with Triton Server
 - Data pre/post processing & prompting for the models with Airflow + FastAPI
 
@@ -23,7 +23,7 @@ January 2025 ~ April 2025 | Aug Team
 - Deployed most of the AWS resources with AWS CDK(IaC).
 
 [aug: spacial social](https://www.augaugaug.com/)\
-September 2023 ~ December 2024 | Aug Team
+September 2023 ~ Present | Aug Team
 - [Designed Serverless event-driven infrastructure](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug.png) & implementation.
 - [Video streaming & image content delievery](https://github.com/joonb14/docs-joonb14/blob/main/Aug/aug-cdn.png).
 - GeoLocation-based AR Social Networking Service. 
@@ -92,18 +92,27 @@ J. Park, S. Park, H. Cha, "GAZEL: Runtime Gaze Tracking for Smartphones," *The 1
 ---
 ## Projects
 
-**Synapsego: Automated Visual Synopsis Creation**,
+**Synapsego: Automated Visual Synopsis Creation & Goal-step Analysis**,
 SK Telecom\
-May 2025 ~ Present
+May 2025 ~ October 2025
+
+*Synopsis: Generate a synopsis by analyzing the video and compose a report based on it.This project was targeted at police departments, with the goal of automatically analyzing officer-worn bodycam footage to generate a synopsis and create a report organized by key events.*
+
+*Goal-step: Analyze the work procedures by using an expert's work videos. Establish Standard Operating Procedures (SOPs) based on this analysis. Compare and analyze the established SOPs against the work procedures observed in/derived from worker videos.This project was targeted at two main audiences for this evaluation: SK hynix workers (for their adherence to standard procedures) and university nursing students (for their practical skills assessment).*
+
 - Audio transcription model serving with Ray Serve
 - VLM multimodal inference serving and SLM serving with vllm + FastAPI
 - Vison models serving with Business Logic Scripting with Triton Server
 - Pipelining with Airflow DAGs
+- VLM inference optimization with python concurrent.futures
 
 **Shot Up: AI Assistant for Screenshots**, 
 with Gunhee Han, Harry Kim, Hojin Joo\
 January 2025 ~ April 2025\
 [AppStore Link](https://apps.apple.com/us/app/shotup-ai/id6738339711)
+
+*We often take screenshots of useful information we find while browsing the web on our smartphones, intending to look at it again later. But when we actually try to find that specific screenshot, it's difficult to locate it in a gallery cluttered with countless other pictures. We designed our product to solve this exact problem.*
+
 - Design and deploy the AWS resources with AWS CDK.
 - Firebase authentication with Google & Apple login.
 - Mobile push notification with AWS SNS, Firebase Cloud Message(FCM).
@@ -113,20 +122,37 @@ January 2025 ~ April 2025\
 
 **Aug: Location-based AR Social Network Service**, 
 with Gunhee Han, Harry Kim, Hojin Joo\
-September 2023 ~ December 2024\
+September 2023 ~ Present\
 [AppStore Link](https://apps.apple.com/kr/app/aug-your-next-reality/id6464393167)
+
+*We are heading into an era that will be dominated by AR and VR. To keep pace with this trend, our goal was to create a location-based AR SNS (Social Networking Service) that can be used on current mobile devices.*
+
+*We implemented all the standard SNS features, such as direct messaging and thread posting. Additionally, by utilizing Apple's ARKit, we developed a new type of SNS where users can place content into an AR environment through their mobile device's camera.*
+
+*Initially, our objective was to create a general-purpose SNS. However, we are now in the process of defining a more specific target audience and optimizing the platform accordingly. (For example, we are placing a strong emphasis on niches such as running, idol fandoms, or 'otaku' culture.)*
+
 - Design and deploy the AWS resources with AWS CDK.
 - Firebase authentication with email & password, Google login, Apple login.
 - Mobile push notification with AWS SNS, Firebase Cloud Message(FCM).
+- Direct messaging using only serverless or fully-managed resources. WebSocket, EventBridge, Lambda, DynamoDB, SNS
 - Video streaming & image content distribution with AWS Route53, CloudFront, S3.
-- Automatic thumbnail creation with AWS S3, Lambda trigger.
 - Automatic HLS convertion for videos with AWS S3, Lambda trigger, MediaConvert.
+- Automatic thumbnail creation with AWS S3, Lambda trigger.
 - Business logic with Event-driven architecture. Using only serverless resources, AWS REST API Gateway, EventBridge, Lambda, DynamoDB.
 - Geolocation-based content search API based on Mapbox quadkey.
 
 **MLOps pipeline for AI Surveillance Cameras(CVOps)**, 
 SK Telecom\
 February 2023 ~ September 2024
+
+*In surveillance camera monitoring systems, false alarms caused by false positives are a persistent problem for operators. The conventional solution involves manually extracting the frames where false positives occurred and retraining the model.*
+
+*The objective of this project is to automate this retraining pipeline.*
+
+*Furthermore, this process must be executed on a per-camera basis (or for specific camera groups) to avoid degrading the quality of the main, global model. Therefore, it is crucial to develop a cost-effective logic to automatically update models for these specific camera groups.*
+
+*To achieve this, we designed and implemented the solution in collaboration with AWS, making extensive use of serverless resources.*
+
 - Design and deploy the AWS resources with AWS CDK.
 - User Authentication with AWS Cognito.
 - Dataset management with AWS Fathom(co-developing service with SKT) SDK.
@@ -141,6 +167,11 @@ February 2023 ~ September 2024
 **Anomaly detection(with drone images) service for radio towers**, 
 SK Telecom\
 June 2023 ~ August 2023
+
+*Telecommunications providers, such as SKTelecom, are responsible for managing a vast number of radio towers. These structures vary in size, from several meters to tens of meters tall, and inspecting them incurs significant annual costs.*
+
+*Therefore, I designed and implemented a service to diagnose faults in these towers using drone-captured video footage. This service determines whether a tower actually requires repairs before a technician has to undertake the high-risk task of climbing it, thereby improving safety and cost-efficiency.*
+
 - Whole AWS infrastructure with AWS CDK(IaC).
 - VPC & NAT Gateway for security requirements.
 - Batch inference anomaly detection model with AWS Sagemaker ProcessingJob to only use instance on-demand(Serverless Service).
