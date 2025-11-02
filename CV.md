@@ -13,7 +13,7 @@ Global Solutions Technology, SK Telecom, Pangyo, Korea\
 May 2025 ~ October 2025 | Security AI Development Team
 - Large/Small Language Model(LLM/SLM) & Vision Language Model(VLM) serving with vLLM | Ray serve
 - Object Detection & License Plate Detection & Face Recognition Pipeline serving with Triton Server
-- Data pre/post processing & prompting for the models with Airflow + FastAPI
+- Data pre/post processing & prompting for the AI Agent with Airflow + FastAPI
 
 [shot up](https://www.shotup.ai/)\
 January 2025 ~ April 2025 | Aug Team
@@ -103,6 +103,7 @@ May 2025 ~ October 2025
 - Audio transcription model serving with Ray Serve
 - VLM multimodal inference serving and SLM serving with vllm + FastAPI
 - Vison models serving with Business Logic Scripting with Triton Server
+- Implement core functionality with prompting AI agents
 - Pipelining with Airflow DAGs
 - VLM inference optimization with python concurrent.futures
 
@@ -119,6 +120,7 @@ January 2025 ~ April 2025\
 - Business logic with Lambda Function URL(to support streaming responses) + CloudFront distribution
 - Lambda@Edge authentication for CloudFront origins
 - OpenSearch Serverless vector collection and AWS Bedrock & ChatGPT for semantic search
+- Implement core functionality with OCR & LLM APIs
 
 **Aug: Location-based AR Social Network Service**, 
 with Gunhee Han, Harry Kim, Hojin Joo\
