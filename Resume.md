@@ -1,7 +1,5 @@
 # Joonbeom Park
 
-**Seoul, Republic of Korea**
-
 joonb14@gmail.com\
 GitHub: [github.com/joonb14](https://github.com/joonb14)
 
@@ -22,7 +20,7 @@ PyTorch, TensorFlow, vLLM, Ray Serve, Triton Server, Computer Vision, LLM/VLM Se
 ### Backend
 Python, FastAPI, TypeScript, Node.js, C++, WebSocket
 ### DevOps
-Docker, Airflow
+Docker, Airflow, AWS CDK
 ### Mobile 
 Android (Java), Unity
 
