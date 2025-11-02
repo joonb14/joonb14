@@ -1,6 +1,7 @@
 # Joonbeom Park
 
 **Seoul, Republic of Korea**
+
 joonb14@gmail.com\
 GitHub: [github.com/joonb14](https://github.com/joonb14)
 
