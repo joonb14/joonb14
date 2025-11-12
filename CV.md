@@ -1,6 +1,5 @@
 # Joonbeom Park
 Seoul, Republic of Korea.\
-joonb14@sktelecom.com\
 joonb14@gmail.com\
 jb.park@yonsei.ac.kr\
 github: [https://github.com/joonb14](https://github.com/joonb14)
@@ -102,7 +101,7 @@ May 2025 ~ October 2025
 
 - Audio transcription model serving with Ray Serve
 - VLM multimodal inference serving and SLM serving with vllm + FastAPI
-- Vison models serving with Business Logic Scripting with Triton Server
+- Vision models serving with Business Logic Scripting with Triton Server
 - Implement core functionality with prompting AI agents
 - Pipelining with Airflow DAGs
 - VLM inference optimization with python concurrent.futures
